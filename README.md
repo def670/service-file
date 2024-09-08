@@ -8,7 +8,7 @@ this gets your node installed
 
 remember geth is in core-geth/build/bin
 
-### Move Geth to the  
+### Move Geth to the system accessable files
     
     sudo mv geth /usr/local/bin/
 
@@ -39,3 +39,5 @@ Then run node by the following commands
     sudo systemctl restart all.service  <--restarts the service
     sudo systemctl disable all.service  <--disables system control of service - will NOT automatically restart when rebooted
 
+### Summery
+    At this point your node should now start itself when your computer is started.  With some modifications, this could be used to start any program automatically.
