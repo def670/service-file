@@ -35,6 +35,9 @@ Then run node by the following commands
     sudo systemctl enable all.service   <--enables system to control pool - will automatically restart if computer rebooted
     sudo systemctl start all.service    <--starts the service
     sudo systemctl status all.service   <--shows status of the service
+
+    these options are also available
+    
     sudo systemctl stop all.service     <--stops the service
     sudo systemctl restart all.service  <--restarts the service
     sudo systemctl disable all.service  <--disables system control of service - will NOT automatically restart when rebooted
