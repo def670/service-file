@@ -43,7 +43,8 @@ Then run node by the following commands
     sudo systemctl disable all.service  <--disables system control of service - will NOT automatically restart when rebooted
 
 ### Notice:
-    when setup this way the node is NOT minable.  You will need to research several other geth commands.  Roughly you would add these arguments into your geth startup command:
+    when setup this way the node is NOT minable.  You will need to research several other geth commands.  
+    Roughly, you would add these arguments into your geth startup command:
     --miner.etherbase "YOUR ADDRESS" --mine
     Geth has a LOT of options - you can access the list like this:
     geth --help
