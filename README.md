@@ -50,4 +50,5 @@ Then run node by the following commands
     geth --help
 
 ### Summery
-    At this point your node should now start itself when your computer is started.  With some modifications, this could be used to start any program automatically.
+    At this point your node should now start itself when your computer is started.  
+    With some modifications, this could be used to start any program automatically.
