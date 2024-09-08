@@ -6,8 +6,10 @@ first of all - proceed here: https://www.eticaprotocol.org/v3instructions
 follow the instructions 1-4
 this gets your node installed
 
-### Install Geth
+remember geth is in core-geth/build/bin
 
+### Move Geth to the  
+    
     sudo mv geth /usr/local/bin/
 
 ### Make the geth system service file
@@ -26,6 +28,7 @@ Copy the following into the file
     [Install]
     WantedBy=multi-user.target
 
+please look for CAPITALIZED options in the file and put your proper information in there.
 save the file (control+x in nano, and yes to save)    
 Then run node by the following commands
 
