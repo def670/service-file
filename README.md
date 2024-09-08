@@ -29,7 +29,7 @@ Copy the following into the file
     WantedBy=multi-user.target
 
 please look for CAPITALIZED options in the file and put your proper information in there.
-save the file (control+x in nano, and yes to save)    
+save the file (control+x in nano, and yes to save).   
 Then run node by the following commands
 
     sudo systemctl enable all.service   <--enables system to control pool - will automatically restart if computer rebooted
@@ -41,6 +41,12 @@ Then run node by the following commands
     sudo systemctl stop all.service     <--stops the service
     sudo systemctl restart all.service  <--restarts the service
     sudo systemctl disable all.service  <--disables system control of service - will NOT automatically restart when rebooted
+
+### Notice:
+    when setup this way the node is NOT minable.  You will need to research several other geth commands.  Roughly you would add these arguments into your geth startup command:
+    --miner.etherbase "YOUR ADDRESS" --mine
+    Geth has a LOT of options - you can access the list like this:
+    geth --help
 
 ### Summery
     At this point your node should now start itself when your computer is started.  With some modifications, this could be used to start any program automatically.
