@@ -49,6 +49,6 @@ Then run node by the following commands
     Geth has a LOT of options - you can access the list like this:
     geth --help
 
-### Summery
+### Summary
     At this point your node should now start itself when your computer is started.  
     With some modifications, this could be used to start any program automatically.
